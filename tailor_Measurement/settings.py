@@ -98,7 +98,7 @@ DATABASES = {
     }
 }
 
-DATABASES['default'] = dj_database_url.parse('postgres://appbrew:7SP7DhK4ykudtQu8oS1IevkqLrdBglGw@dpg-cmif3g6d3nmc73cj2mbg-a.oregon-postgres.render.com/appbrew')
+DATABASES['default'] = dj_database_url.parse('postgres://appbrew_9pcp_user:pzVJyoW2POsy7ETb8HOVf49dNQIBDZsm@dpg-cmillk21hbls738flgo0-a.oregon-postgres.render.com/appbrew_9pcp')
 
 
 # Password validation
