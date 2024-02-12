@@ -41,13 +41,15 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
+
     #Second Party Apps
     'persons',
 
 
     #Thid Party Apps
     'rest_framework',
+    'django.contrib.staticfiles',  # required for serving swagger ui's css/js files
+    'drf_yasg',
 
 
     
@@ -98,7 +100,7 @@ DATABASES = {
     }
 }
 
-DATABASES['default'] = dj_database_url.parse('postgres://appbrew_9pcp_user:pzVJyoW2POsy7ETb8HOVf49dNQIBDZsm@dpg-cmillk21hbls738flgo0-a.oregon-postgres.render.com/appbrew_9pcp')
+# DATABASES['default'] = dj_database_url.parse('postgres://appbrew_9pcp_user:pzVJyoW2POsy7ETb8HOVf49dNQIBDZsm@dpg-cmillk21hbls738flgo0-a.oregon-postgres.render.com/appbrew_9pcp')
 
 
 # Password validation
